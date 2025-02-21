@@ -1,13 +1,18 @@
-# Welcome to your CDK Go project!
+# Instagram Post Monitor for Dunsin Oyekan
 
-This is a blank project for CDK development with Go.
+Automated system to detect "Upper Room" concert announcements on Instagram and send SMS alerts.
 
-The `cdk.json` file tells the CDK toolkit how to execute your app.
+## Features
+- Instagram post scraping (public profiles)
+- RSS feed generation
+- AWS Lambda SMS alerts
+- Anti-blocking mechanisms
+- Post deduplication
 
-## Useful commands
+## Prerequisites
+- AWS Account (Free Tier)
+- Go 1.20+
+- Terraform 1.5+
+- AWS CLI configured
 
- * `cdk deploy`      deploy this stack to your default AWS account/region
- * `cdk diff`        compare deployed stack with current state
- * `cdk synth`       emits the synthesized CloudFormation template
- * `go test`         run unit tests
-# upperroom-api-gateway
+## Installation
